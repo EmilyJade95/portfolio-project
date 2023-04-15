@@ -1,10 +1,29 @@
 :root {
   --primary-font: "Source Serif Pro", serif;
+  --primary-color: #dec2ba;
+  --secondary-color: 00000;
 }
 
-h1 {
-  background-color: aquamarine;
+.hero {
+  background: black;
+  color: var(--primary-color);
   text-align: center;
-  padding: 20px;
   font-family: var(--primary-font);
+  padding: 160px 20px;
+}
+
+.hero h1 {
+  font-size: 96px;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 40px;
+}
+
+.author-picture {
+  margin: 0 auto;
+  display: inline;
+  border: 2px solid wheat;
+  border-radius: 15px;
 }
