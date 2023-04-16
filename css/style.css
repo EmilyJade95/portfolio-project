@@ -4,6 +4,10 @@
   --secondary-color: 00000;
 }
 
+.container-body {
+  background: black;
+}
+
 .hero {
   background: black;
   width: 100vw;
@@ -23,7 +27,7 @@
   font-size: 40px;
 }
 
-.hero button {
+button {
   margin-top: 40px;
   background-color: #dec2ba;
   color: black;
@@ -33,7 +37,7 @@
   border: 2px solid #dec2ba;
 }
 
-.hero button:hover {
+button:hover {
   cursor: pointer;
   background-color: rgb(241, 209, 209);
   color: black;
@@ -46,4 +50,9 @@
   display: inline;
   border: 2px solid #dec2ba;
   border-radius: 15px;
+}
+
+.featured-projects {
+  font-family: var(--primary-font);
+  color: #dec2ba;
 }
