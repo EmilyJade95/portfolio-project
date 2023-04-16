@@ -8,6 +8,12 @@
   background: black;
 }
 
+img {
+  margin: 0 auto;
+  border: 5px solid #dec2ba;
+  border-radius: 10px;
+}
+
 .hero {
   background: black;
   width: 100vw;
@@ -15,7 +21,7 @@
   color: var(--primary-color);
   text-align: center;
   font-family: var(--primary-font);
-  padding: 160px 20px;
+  padding: 60px 20px 50px 20px;
 }
 
 .hero h1 {
@@ -27,17 +33,18 @@
   font-size: 40px;
 }
 
-button {
+.hero button {
   margin-top: 40px;
   background-color: #dec2ba;
   color: black;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
   padding: 10px 20px;
   border: 2px solid #dec2ba;
+  font-size: 15px;
 }
 
-button:hover {
+.hero button:hover {
   cursor: pointer;
   background-color: rgb(241, 209, 209);
   color: black;
@@ -45,14 +52,37 @@ button:hover {
   transition: ease-in-out;
 }
 
-.author-picture {
-  margin: 0 auto;
-  display: inline;
-  border: 2px solid #dec2ba;
-  border-radius: 15px;
-}
-
 .featured-projects {
   font-family: var(--primary-font);
   color: #dec2ba;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: semi-bold;
+}
+
+.featured-projects button {
+  margin-top: 40px;
+  background-color: #dec2ba;
+  color: black;
+  font-style: italic;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 2px solid #dec2ba;
+}
+
+.featured-projects button:hover {
+  cursor: pointer;
+  background-color: rgb(241, 209, 209);
+  color: black;
+  border: 2px solid #dec2ba;
+  transition: ease-in-out;
+}
+
+@media (max-width: 960px) {
+  .project {
+    padding: 0;
+    text-align: center;
+  }
 }
