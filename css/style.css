@@ -17,11 +17,10 @@ img {
 .hero {
   background: black;
   width: 100vw;
-  min-height: 100vh;
   color: var(--primary-color);
   text-align: center;
   font-family: var(--primary-font);
-  padding: 60px 20px 50px 20px;
+  padding: 160px 20px;
 }
 
 .hero h1 {
@@ -61,6 +60,9 @@ img {
   font-size: 50px;
   font-weight: semi-bold;
 }
+.project {
+  line-height: 30px;
+}
 
 .featured-projects button {
   margin-top: 40px;
@@ -81,6 +83,9 @@ img {
 }
 
 @media (max-width: 960px) {
+  .hero h1 {
+    font-size: 60px;
+  }
   .project {
     padding: 0;
     text-align: center;
