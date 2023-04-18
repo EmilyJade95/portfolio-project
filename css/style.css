@@ -87,6 +87,42 @@ img {
   transition: ease-in-out;
 }
 
+.about-me {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  text-align: center;
+  padding: 160px 40px;
+}
+
+.about-me h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.about-me h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.about-me button {
+  margin-top: 40px;
+  background-color: #dec2ba;
+  color: black;
+  font-style: italic;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 2px solid #dec2ba;
+  font-size: 15px;
+}
+
+.about-me button:hover {
+  cursor: pointer;
+  background-color: rgb(241, 209, 209);
+  color: black;
+  border: 2px solid #dec2ba;
+  transition: ease-in-out;
+}
+
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 60px;
