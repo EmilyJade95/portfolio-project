@@ -6,6 +6,7 @@
 
 .container-body {
   background: black;
+  width: 100vw;
 }
 
 button a {
