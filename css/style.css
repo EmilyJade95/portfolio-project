@@ -1,31 +1,27 @@
 :root {
   --primary-font: "Source Serif Pro", serif;
-  --primary-color: #dec2ba;
-  --secondary-color: 00000;
+  --primary-color: #769880;
+  --accent-color: #afcec4;
+  --background-color: #dfd7d5;
 }
 
 .container-body {
-  background: black;
-}
-
-button a {
-  text-decoration: none;
-  color: black;
+  background: var(--background-color);
 }
 
 img {
   margin: 0 auto;
-  border: 5px solid #dec2ba;
+  border: 5px solid #c4d0cc;
   border-radius: 10px;
 }
 
 .hero {
-  background: black;
+  background: var(--background-color);
   width: 100vw;
   color: var(--primary-color);
   text-align: center;
   font-family: var(--primary-font);
-  padding: 160px 20px;
+  padding: 160px 20px 60px 20px;
 }
 
 .hero h1 {
@@ -39,127 +35,75 @@ img {
 
 .hero button {
   margin-top: 40px;
-  background-color: #dec2ba;
+  background-color: var(--accent-color);
   color: black;
   font-style: italic;
   font-weight: 600;
   padding: 10px 20px;
-  border: 2px solid #dec2ba;
+  border: 2px solid var(--accent-color);
   font-size: 15px;
 }
 
 .hero button:hover {
   cursor: pointer;
-  background-color: rgb(241, 209, 209);
+  background-color: #c4d0cc;
   color: black;
-  border: 2px solid #dec2ba;
+  border: 2px solid #2d4d42;
   transition: ease-in-out;
 }
 
-.featured-projects {
-  font-family: var(--primary-font);
-  color: #dec2ba;
+.hero button:active {
+  background-color: #769880;
 }
 
-.title {
-  font-size: 50px;
-  font-weight: semi-bold;
-}
-.project {
-  line-height: 30px;
-}
-
-.featured-projects button {
-  margin-top: 40px;
-  background-color: #dec2ba;
-  color: black;
-  font-style: italic;
-  font-weight: 600;
-  padding: 10px 20px;
-  border: 2px solid #dec2ba;
-}
-
-.featured-projects button:hover {
-  cursor: pointer;
-  background-color: rgb(241, 209, 209);
-  color: black;
-  border: 2px solid #dec2ba;
-  transition: ease-in-out;
-}
-
-.about-me {
+.content {
   font-family: var(--primary-font);
   color: var(--primary-color);
   text-align: center;
   padding: 160px 40px;
 }
 
-.about-me h1 {
+.content .title {
+  font-size: 50px;
+  font-weight: semi-bold;
+}
+.content .project {
+  line-height: 30px;
+  text-align: left;
+}
+
+.content button {
+  margin-top: 40px;
+  background-color: var(--accent-color);
+  color: black;
+  font-style: italic;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 2px solid var(--accent-color);
+  font-size: 15px;
+}
+
+.content button:hover {
+  cursor: pointer;
+  background-color: #c4d0cc;
+  color: black;
+  border: 2px solid #2d4d42;
+  transition: ease-in-out;
+}
+
+.content h1 {
   font-size: 60px;
   font-weight: 600;
 }
 
-.about-me h2 {
+.content h2 {
   font-size: 30px;
   font-weight: 300;
 }
 
-.about-me button {
-  margin-top: 40px;
-  background-color: #dec2ba;
+.content a {
+  text-decoration: none;
   color: black;
-  font-style: italic;
-  font-weight: 600;
-  padding: 10px 20px;
-  border: 2px solid #dec2ba;
-  font-size: 15px;
-}
-
-.about-me button:hover {
-  cursor: pointer;
-  background-color: rgb(241, 209, 209);
-  color: black;
-  border: 2px solid #dec2ba;
-  transition: ease-in-out;
-}
-
-.work {
-  font-family: var(--primary-font);
-  color: var(--primary-color);
-  text-align: center;
-  padding: 160px 40px;
-}
-
-.work h1 {
-  font-size: 60px;
-  font-weight: 600;
-  text-align: left;
-  margin-bottom: 30px;
-}
-
-.work button {
-  margin-top: 40px;
-  background-color: #dec2ba;
-  color: black;
-  font-style: italic;
-  font-weight: 600;
-  padding: 10px 20px;
-  border: 2px solid #dec2ba;
-  font-size: 15px;
-}
-
-.work button:hover {
-  cursor: pointer;
-  background-color: rgb(241, 209, 209);
-  color: black;
-  border: 2px solid #dec2ba;
-  transition: ease-in-out;
-}
-.contact {
-  font-family: var(--primary-font);
-  color: var(--primary-color);
-  text-align: center;
-  padding: 160px 40px;
 }
 
 @media (max-width: 960px) {
