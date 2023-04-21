@@ -2,7 +2,7 @@
   --primary-font: "Source Serif Pro", serif;
   --primary-color: #769880;
   --accent-color: #afcec4;
-  --background-color: #dfd7d5;
+  --background-color: #eae6e5;
 }
 .container-body {
   background: var(--background-color);
@@ -154,8 +154,9 @@ nav li.active a {
   color: black;
 }
 
-.project-img {
+.content .project-img {
   max-height: 390px;
+  max-width: 550px;
 }
 
 footer {
