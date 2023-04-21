@@ -155,6 +155,12 @@ img {
   border: 2px solid #dec2ba;
   transition: ease-in-out;
 }
+.contact {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  text-align: center;
+  padding: 160px 40px;
+}
 
 @media (max-width: 960px) {
   .hero h1 {
