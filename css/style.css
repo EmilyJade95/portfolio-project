@@ -15,6 +15,11 @@ img {
   border-radius: 10px;
 }
 
+.hero a {
+  text-decoration: none;
+  color: black;
+}
+
 .hero {
   background: var(--background-color);
   width: 100vw;
@@ -49,7 +54,7 @@ img {
   background-color: #c4d0cc;
   color: black;
   border: 2px solid #2d4d42;
-  transition: ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 .hero button:active {
@@ -88,7 +93,7 @@ img {
   background-color: #c4d0cc;
   color: black;
   border: 2px solid #2d4d42;
-  transition: ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 .content h1 {
@@ -104,6 +109,10 @@ img {
 .content a {
   text-decoration: none;
   color: black;
+}
+
+.project-img {
+  max-height: 390px;
 }
 
 @media (max-width: 960px) {
