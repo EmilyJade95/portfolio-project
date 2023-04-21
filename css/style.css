@@ -158,6 +158,78 @@ nav li.active a {
   max-height: 390px;
 }
 
+footer {
+  margin: 0 100px;
+  font-family: var(--primary-font);
+}
+footer h4 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+footer p {
+  font-size: 17px;
+}
+
+footer .contact-box {
+  background: var(--accent-color);
+  padding: 30px 100px;
+  margin: 30px 0;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .btn {
+  margin-top: 40px;
+  background-color: whitesmoke;
+  color: black;
+  font-style: italic;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 2px solid #080808;
+  font-size: 15px;
+}
+
+footer .btn:hover {
+  cursor: pointer;
+  background-color: #c4d0cc;
+  color: black;
+  border: 1px solid #080808;
+  transition: all 100ms ease-in-out;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  font-size: 16px;
+  background: #fffefe;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
+}
+
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 60px;
