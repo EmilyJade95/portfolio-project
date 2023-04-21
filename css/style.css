@@ -69,7 +69,7 @@ nav li.active a {
   color: var(--primary-color);
   text-align: center;
   font-family: var(--primary-font);
-  padding: 160px 20px 60px 20px;
+  padding: 100px 20px 60px 20px;
 }
 
 .hero h1 {
@@ -108,7 +108,7 @@ nav li.active a {
   font-family: var(--primary-font);
   color: var(--primary-color);
   text-align: center;
-  padding: 160px 40px;
+  padding: 120px 40px;
 }
 
 .content .title {
